@@ -1,5 +1,5 @@
+# Software Engineering – Spring 2026
 # README Bug World Client
-Software Engineering – Spring 2026
 This is our client implementation for the Bug World simulator.
 The client communicates with the given sim program using named pipes. It sends commands to advance the simulation and reads back the world state, which is then displayed in the terminal.
 The client communicates with the simulator using the pipe protocol described in the project documentation. The simulator sends responses containing the cycle number, map, and stats, which the client parses and prints.
